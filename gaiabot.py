@@ -399,7 +399,7 @@ def main():
     print("Title: GaiaAI Chatbot (FORKED BY SQUANCH)")
     print("Created by: Rues Community")
     print("Twitter: https://x.com/Ruesandora0")
-    api_key = input("Enter your API key: ")
+    api_key = "gaia-NDFiNThiZDMtODYwOS00MWM3LWEyYWEtMDNiYmMxYTJiN2Y1-pa5o8upPHLUVZCdG"
     run_bot(api_key)
 
 if __name__ == "__main__":
