@@ -353,7 +353,7 @@ def chat_with_ai(api_key: str, question: str) -> str:
                 f"{BASE_URL}/v1/chat/completions",
                 headers=headers,
                 json=data,
-                timeout=60
+                timeout=30
             )
 
             if response.status_code == 200:
@@ -396,7 +396,7 @@ def run_bot(api_key: str):
                 continue
 
 def main():
-    print("Title: GaiaAI Chatbot (FORKED BY SQUANCH)")
+    print("Title: GaiaAI Chatbot (FORKED BY ENZIFIRI)")
     print("Created by: Rues Community")
     print("Twitter: https://x.com/Ruesandora0")
     api_key = "gaia-NDFiNThiZDMtODYwOS00MWM3LWEyYWEtMDNiYmMxYTJiN2Y1-pa5o8upPHLUVZCdG"
